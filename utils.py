@@ -71,8 +71,8 @@ def login():
         users = f.readlines()
         users = [user.replace("\n", "") for user in users]
     
-    email = input("Введите логин: ")
-    pasword = input("Введите пароль: ")
+    email = input("Введите ваш логин: ")
+    pasword = input("Введите ваш пароль: ")
 
     user = f"{email}: {pasword}"
 
