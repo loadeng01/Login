@@ -43,19 +43,6 @@ def password():
     return pasword
 
 
-# with open("square.txt", 'w+') as f:
-#     nums = []
-#     with open("numbers.txt", 'r+') as f2:
-#         nums = f2.readlines()
-#         nums = [num.replace("\n", "") for num in nums]
-#         for i in nums:
-#             f.write(i + " ** 2" + "\n")
-#         squr = [int(i) ** 2 for i in nums]
-
-#         with open ("square.txtz", 'w+') as f3:
-#             for i in squr:
-#                 f3.write(str(i) + '\n')
-
 
 def register():
     email = emil()
